@@ -1,9 +1,10 @@
 //Task1.1.1
 void setup(){
  Serial.begin(9600);
+ pinMode(2,INPUT);
 }
 void loop(){
- int val=digitalRead(A1);
+ int val=digitalRead(2);
  Serial.println(val);
  delay(100);}
 
